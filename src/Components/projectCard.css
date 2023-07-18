@@ -80,7 +80,7 @@
 
 
    .main-card {
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background: linear-gradient(90.21deg, #aa367cb3 -5.91%, #4a2fbdc2 111.58%);
     border-radius: 20px;
   }
   
@@ -155,6 +155,6 @@
   .card-description {
     margin-top: 0.5rem;
     font-size: 15px;
-    color: #000000;
+    color: #bdbdbd;
   }
   
