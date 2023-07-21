@@ -33,6 +33,13 @@ export const Projects = () => {
    
   const projects = [
     {
+      title: "Medi Block",
+      description: "MediBlock is a decentralized blockchain system that securely stores and presents patients' data. Developed using React.js, JavaScript, and Solidity, it ensures the privacy and integrity of medical records while enabling seamless access and sharing among healthcare providers.",
+      imgUrl: projImg3,
+      github_link: "https://github.com/AdityaWaskar/MEDI-BLOCK.git",
+      live_link: "https://drive.google.com/file/d/14dNFqQjNukQWxwGOt78uz1-BAHQUOu6c/view?usp=sharing"
+    },
+    {
       title: "Student Portfolio",
       description: "The student portfilio application developed with Python and tkinter offers a convenient solution for organizing and accessing comprehensive student information in universities or colleges. It provides a centralized platform to view and manage all student records efficiently. ",
       imgUrl: projImg1,
@@ -43,16 +50,10 @@ export const Projects = () => {
       title: "FlexTrainer",
       description: "FlexTrainer is a React-based fitness app that showcases exercises for every body part and muscle group, offering a seamless switch between light and dark mode. It leverages the power of RapidAPI to provide comprehensive exercise data.",
       imgUrl: projImg2,
-      github_link: "https://github.com",
-      live_link: "https://google.com"
+      github_link: "https://github.com/Himanshu-309/FlexTrainer",
+      live_link: "https://flextrainer-83a82.web.app/"
     },
-    {
-      title: "Medi Block",
-      description: "MediBlock is a decentralized blockchain system that securely stores and presents patients' data. Developed using React.js, JavaScript, and Solidity, it ensures the privacy and integrity of medical records while enabling seamless access and sharing among healthcare providers.",
-      imgUrl: projImg3,
-      github_link: "https://github.com/AdityaWaskar/MEDI-BLOCK.git",
-      live_link: "https://drive.google.com/file/d/14dNFqQjNukQWxwGOt78uz1-BAHQUOu6c/view?usp=sharing"
-    },
+    
   ];
  
   const certificates = [
