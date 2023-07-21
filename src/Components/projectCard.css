@@ -77,85 +77,99 @@
   }
    */
 
+.main-card {
+  background: linear-gradient(90.21deg, #aa367cb3 -5.91%, #4a2fbdc2 111.58%);
+  border-radius: 20px;
+  width: 320px;
+  height: 435px;
+  margin-left: 0; /* Reset the left margin to ensure left alignment in non-mobile views */
+  margin-right: auto; /* Center the card horizontally in all views */
+}
+/* Media query for mobile view (screen width up to 360px) */
+@media screen and (max-width: 360px) {
+  .main-card {
+    width: 280px; /* Adjust the width for 360px wide screens */
+    margin-left: -8%; /* Center the card horizontally for mobile view */
+  }
+}
 
+/* Media query for larger mobile devices (screen width between 361px and 767px) */
+@media screen and (min-width: 361px) and (max-width: 767px) {
+  .main-card {
+    width: 320px; /* Reset the width for larger mobile devices */
+    margin-left: -8%; /* Center the card horizontally for mobile view */
+  }
+}
 
-   .main-card {
-    background: linear-gradient(90.21deg, #aa367cb3 -5.91%, #4a2fbdc2 111.58%);
-    border-radius: 20px;
-    width: 320px;
-    height: 435px;
-  }
-  
-  .card-img-container {
-    position: relative;
-  }
-  
-  .card-img-container > img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 20px;
-    padding: 0.5rem;
-  }
-  
-  .card-img-overlay {
-    position: absolute;
-    top: 0;
-    right: -15px;
-    display: flex;
-    justify-content: flex-end;
-    margin: 0.75rem;
-  }
-  
-  .github-icon {
-    width: 30px;
-    height: 30px;
-    background-color: black;
-    border-radius: 50%;
-    margin-right: 5px;
-  }
-  
-  .github-icon img {
-    width: 70%;
-    height: 70%;
-  }
-  
-  .live-icon {
-    width: 30px;
-    height: 30px;
-    background-color: black;
-    border-radius: 50%;
-  }
-  
-  .live-icon img {
-    width: 70%;
-    height: 70%;
-  }
-  
-  .card-img-overlay-live {
-    position: absolute;
-    top: 0;
-    right: 40px;
-    display: flex;
-    justify-content: flex-end;
-    margin: 0.75rem;
-  }
-  
-  .card-content {
-    margin-top: 0.8rem;
-    padding: 0.9rem;
-    text-align: justify;
-  }
-  
-  .card-title {
-    font-weight: bold;
-    font-size: 24px;
-    color: white;
-  }
-  
-  .card-description {
-    margin-top: 0.5rem;
-    font-size: 15px;
-    color: #bdbdbd;
-  }
-  
+.card-img-container {
+  position: relative;
+}
+
+.card-img-container > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  padding: 0.5rem;
+}
+
+.card-img-overlay {
+  position: absolute;
+  top: 0;
+  right: -15px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0.75rem;
+}
+
+.github-icon {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.github-icon img {
+  width: 70%;
+  height: 70%;
+}
+
+.live-icon {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.live-icon img {
+  width: 70%;
+  height: 70%;
+}
+
+.card-img-overlay-live {
+  position: absolute;
+  top: 0;
+  right: 40px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0.75rem;
+}
+
+.card-content {
+  margin-top: 0.8rem;
+  padding: 0.9rem;
+  text-align: justify;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+}
+
+.card-description {
+  margin-top: 0.5rem;
+  font-size: 15px;
+  color: #bdbdbd;
+}
