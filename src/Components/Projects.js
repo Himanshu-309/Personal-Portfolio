@@ -7,7 +7,7 @@ import { CertificateCard } from "./CertificateCard";
 import { LinkCard } from "./LinkCard";
 
 import projImg1 from "../assets/img/sp.jpeg";
-import projImg2 from "../assets/img/sp.jpeg";
+import projImg2 from "../assets/img/Flex_Trainer.jpeg";
 import projImg3 from "../assets/img/mb.jpeg";
 
 import leetcode from "../assets/img/leetcode1.png";
