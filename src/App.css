@@ -545,6 +545,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   align-items: center;
   left: 45%;
   top: 65%;
+  object-fit: contain;
 }
 .proj-imgbx a{
   /* color: rgb(18, 18, 18); */
