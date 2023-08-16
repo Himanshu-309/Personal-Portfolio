@@ -8,7 +8,7 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import {Canvas} from '@react-three/fiber';
 import Cube  from './Cube';
 import {OrbitControls, PerspectiveCamera, RenderTexture,Text, Text3D}from '@react-three/drei';
- 
+
 
 const Contact_me = () => {
   const ref = useRef()

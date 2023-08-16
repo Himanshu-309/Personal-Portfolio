@@ -184,7 +184,7 @@ import react from "../assets/img/skills/reactjs.png";
 import java from "../assets/img/skills/java.png";
 import git from "../assets/img/skills/git.png";
 import ps from "../assets/img/skills/problem-solving.png";
-import communication from "../assets/img/skills/communication.png";
+import communication from "../assets/img/skills/communication1.png";
 
 export const Skills = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -268,10 +268,7 @@ export const Skills = () => {
                   <h5>Git</h5>
                 </div>
                 <div className="item">
-                  <img
-                    src={communication}
-                    alt="img"
-                    className="custom-image-size"
+                  <img src={communication} alt="img" className="custom-image-size"
                   />
                   <h5>Communication</h5>
                 </div>
